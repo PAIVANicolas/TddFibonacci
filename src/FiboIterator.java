@@ -20,7 +20,7 @@ public class FiboIterator implements Iterator<Integer> {
     public Integer next() {
         int resultat = 0;
 
-        if (valeurInserer==0){
+        if (valeurInserer==0 || valeurInserer==1 || valeurInserer==2){
             resultat = 1;
         }
 
