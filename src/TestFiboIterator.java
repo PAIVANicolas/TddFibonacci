@@ -22,4 +22,10 @@ public class TestFiboIterator {
         assertEquals(fiboIterator.next().intValue(),1);
     }
 
+    @Test
+    public void TestFiboIteratorNext1 (){
+        FiboIterator fiboIterator = new FiboIterator(1);
+        assertEquals(fiboIterator.next().intValue(),1);
+    }
+
 }
