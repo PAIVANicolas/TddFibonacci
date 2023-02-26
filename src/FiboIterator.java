@@ -18,6 +18,12 @@ public class FiboIterator implements Iterator<Integer> {
 
     @Override
     public Integer next() {
-        return null;
+        int resultat = 0;
+
+        if (valeurInserer==0){
+            resultat = 1;
+        }
+
+        return resultat;
     }
 }
