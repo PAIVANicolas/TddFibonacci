@@ -54,11 +54,69 @@ public class TestFiboIterator {
 
         for(int i : fibonacci){
             resultat = i;
-
         }
         assertEquals(resultat,3);
     }
 
+    @Test
+    public void TestFiboIteratorNext5 (){
+        Fibonacci fibonacci = new Fibonacci(5);
+        int resultat = 0;
 
+        for(int i : fibonacci){
+            resultat = i;
+        }
+        assertEquals(resultat,5);
+    }
+    @Test
+    public void TestFiboIteratorNext6 (){
+        Fibonacci fibonacci = new Fibonacci(6);
+        int resultat = 0;
 
+        for(int i : fibonacci){
+            resultat = i;
+        }
+        assertEquals(resultat,8);
+    }
+
+    @Test
+    public void TestFiboIteratorNext7 (){
+        Fibonacci fibonacci = new Fibonacci(7);
+        int resultat = 0;
+
+        for(int i : fibonacci){
+            resultat = i;
+        }
+        assertEquals(resultat,13);
+    }
+    @Test
+    public void TestFiboIteratorNext8 (){
+        Fibonacci fibonacci = new Fibonacci(8);
+        int resultat = 0;
+
+        for(int i : fibonacci){
+            resultat = i;
+        }
+        assertEquals(resultat,21);
+    }
+    @Test
+    public void TestFiboIteratorNext9 (){
+        Fibonacci fibonacci = new Fibonacci(9);
+        int resultat = 0;
+
+        for(int i : fibonacci){
+            resultat = i;
+        }
+        assertEquals(resultat,34);
+    }
+    @Test
+    public void TestFiboIteratorNext10 (){
+        Fibonacci fibonacci = new Fibonacci(10);
+        int resultat = 0;
+
+        for(int i : fibonacci){
+            resultat = i;
+        }
+        assertEquals(resultat,55);
+    }
 }
