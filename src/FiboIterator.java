@@ -30,6 +30,8 @@ public class FiboIterator implements Iterator<Integer> {
             this.valeurPrecedente=1;
         }else {
             resultat = this.valeurPrecedente + this.valeurSuivante;
+            valeurPrecedente = valeurSuivante;
+            valeurSuivante = resultat;
         }
         rang++;
 
