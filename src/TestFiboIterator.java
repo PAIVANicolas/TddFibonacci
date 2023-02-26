@@ -37,10 +37,26 @@ public class TestFiboIterator {
 
     @Test
     public void TestFiboIteratorNext3 (){
-        FiboIterator fiboIterator = new FiboIterator(3);
-        fiboIterator.next();
-        fiboIterator.next();
-        assertEquals(fiboIterator.next().intValue(),2);
+        Fibonacci fibonacci = new Fibonacci(3);
+        int resultat = 0;
+
+        for(int i : fibonacci){
+            resultat = i;
+
+        }
+        assertEquals(resultat,2);
+    }
+
+    @Test
+    public void TestFiboIteratorNext4 (){
+        Fibonacci fibonacci = new Fibonacci(4);
+        int resultat = 0;
+
+        for(int i : fibonacci){
+            resultat = i;
+
+        }
+        assertEquals(resultat,3);
     }
 
 
