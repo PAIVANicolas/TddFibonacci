@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a0e11f5-77ba-49cf-b92c-6467c2117b48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FiboIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestFiboIterator.java" afterDir="false" />
+    <list default="true" id="6a0e11f5-77ba-49cf-b92c-6467c2117b48" name="Changes" comment="Ajoue du test TestFiboIteratorNext0 qui bloque">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TddFibonacci.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TddFibonacci.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FiboIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FiboIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestFiboIterator">
+    <configuration name="TestFiboIterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TddFibonacci" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestFiboIterator" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestFiboIterator.TestFiboIteratorHasNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TddFibonacci" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,8 +66,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFiboIterator.TestFiboIteratorHasNextTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TddFibonacci" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestFiboIterator" />
+      <option name="METHOD_NAME" value="TestFiboIteratorHasNextTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestFiboIterator" />
+        <item itemvalue="JUnit.TestFiboIterator.TestFiboIteratorHasNextTrue" />
         <item itemvalue="JUnit.TestFiboIterator.TestFiboIteratorHasNext" />
       </list>
     </recent_temporary>
@@ -73,8 +92,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677444368150</updated>
-      <workItem from="1677444369985" duration="643000" />
+      <workItem from="1677444369985" duration="1615000" />
     </task>
+    <task id="LOCAL-00001" summary="Initialisation des classes TestFiboIterator, FiboIterator">
+      <created>1677445190336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677445190336</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ajoue du test TestFiboIteratorHasNextTrue qui bloque">
+      <created>1677445323189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677445323189</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajoue de la classe Fibonacci qui implement Iterable">
+      <created>1677445477265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677445477265</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ajoue d'une variable rang et modification de hasNext">
+      <created>1677445677204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677445677204</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ajoue du test TestFiboIteratorNext0 qui bloque">
+      <created>1677445961174</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677445961174</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,5 +145,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialisation des classes TestFiboIterator, FiboIterator" />
+    <MESSAGE value="Ajoue du test TestFiboIteratorHasNextTrue qui bloque" />
+    <MESSAGE value="Ajoue de la classe Fibonacci qui implement Iterable" />
+    <MESSAGE value="Ajoue d'une variable rang et modification de hasNext" />
+    <MESSAGE value="Ajoue du test TestFiboIteratorNext0 qui bloque" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajoue du test TestFiboIteratorNext0 qui bloque" />
   </component>
 </project>
